@@ -1,0 +1,8 @@
+ version: '2'
+ services:
+   church:
+     build: .
+     image: sschauss/church
+     command: tail -f /dev/null
+     volumes:
+       - ./host:/home/church/host

@@ -1,0 +1,19 @@
+===================================================================
+--- church/external/gsl-paths.ss	(revision 510)
++++ church/external/gsl-paths.ss	(working copy)
+@@ -32,6 +32,7 @@
+             "/usr/lib/libgslcblas.so"
+             "/usr/lib64/libgslcblas.so.0"
+             "/usr/lib64/libgslcblas.so"
++            "/usr/lib/x86_64-linux-gnu/libgslcblas.so" 
+ ;            (string-append (sys-env "HOME") "/sw/lib/libgslcblas.so.0")
+ ;            (string-append (sys-env "HOME") "/sw/lib/libgslcblas.so")
+ ;            (string-append (sys-env "LD_LIBRARY_PATH") "/libgslcblas.so.0")
+@@ -51,6 +52,7 @@
+             "/usr/lib/libgsl.so"
+             "/usr/lib64/libgsl.so.0"
+             "/usr/lib64/libgsl.so"
++            "/usr/lib/x86_64-linux-gnu/libgsl.so"
+ ;            (string-append (sys-env "HOME") "/sw/lib/libgsl.so.0")
+ ;            (string-append (sys-env "HOME") "/sw/lib/libgsl.so")
+ ;            (string-append (sys-env "LD_LIBRARY_PATH") "/libgsl.so.0")
